@@ -1,7 +1,14 @@
 body {
-  background-image: url(../src/images/pill-pixabay.jpg)
+  background-color: whitesmoke
 }
 
+h2 {
+  color: #E7565E
+}
+
+h3 {
+  color: #2574A9
+}
 
 .App {
   text-align: center;

@@ -1,26 +1,39 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const MyTechnologies = () => {
   return (
     <Container>
-         <h2>Informatics Languages</h2>
+      <h2>Technologies and Programming Languages</h2>
       <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Front</th>
-      <th scope="col">Back</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>HTML - CSS - JS</td>
-      <td>Python - SQL</td>
-    </tr>
-  </tbody>
-</table>
+        <thead>
+          <tr>
+            <th scope="col" style={{color: "#2574A9"}}>Frontend</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML <i class="fab fa-html5"></i> </td>
+            <td>CSS <i class="fab fa-css3-alt"></i></td>
+            <td>JavaSript <i class="fab fa-js"></i></td>
+            <td>ReactJS</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+          <th scope="col" style={{color: "#2574A9"}}>Backtend</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SQL <i class="fas fa-database"></i></td>
+            <td>Python <i class="fab fa-python"></i></td>
+            <td>FHIR <i class="fas fa-fire"></i></td>
+          </tr>
+        </tbody>
+      </table>
     </Container>
   );
 };

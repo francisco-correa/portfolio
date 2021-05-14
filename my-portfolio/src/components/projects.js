@@ -14,7 +14,7 @@ const MyProjects = () => {
               Project on the integration of pet owners and veterinarians through API HL7-FHIR...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/pet-cloud">
-              I want to know more
+              I want to know more!!
               </Card.Link>
             </Card.Body>
           </Card>
@@ -28,21 +28,21 @@ const MyProjects = () => {
               Project from differentS Characters and Planets using Star Wars with fetch API...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/star-wars-blog">
-              I want to know more
+              I want to know more!!
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top"src="https://cdn.worldvectorlogo.com/logos/contacts-ios.svg" />
+            <Card.Img variant="top"src="https://cdn3.iconfinder.com/data/icons/mobile-icon-2/512/contact-512.png" />
             <Card.Body>
               <Card.Title>ContactList</Card.Title>
               <Card.Text>
-              Project to build a contact agenda with CRUD method
+              Project to build a contact agenda with CRUD API method
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/contact-list">
-              I want to know more
+              I want to know more!!
               </Card.Link>
             </Card.Body>
           </Card>
