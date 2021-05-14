@@ -6,43 +6,43 @@ const MyProjects = () => {
          <h2>Projects</h2>
       <Row>
         <Col>
-          <Card style={{ width: "18rem", border: "0" }}>
+          <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
             <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
             <Card.Body>
-              <Card.Title>PetCloud</Card.Title>
-              <Card.Text>
+              <Card.Title style={{ color: "white", textAlign: "center"}}>PetCloud</Card.Title>
+              <Card.Text style={{ color: "white", textAlign: "justify"}}>
               Project on the integration of pet owners and veterinarians through API HL7-FHIR...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/pet-cloud">
-              <h3>I want to know more!!</h3>
+              <h4 style={{ color: "white"}}>I want to know more!!</h4>
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-        <Card style={{ width: "18rem", border: "0" }}>
-            <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png" />
+        <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
+            <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
             <Card.Body>
-              <Card.Title>StarWarsBlog</Card.Title>
-              <Card.Text>
-              Project from differentS Characters and Planets using Star Wars with fetch API...
+              <Card.Title style={{ color: "white", textAlign: "center"}}>StarWarsBlog</Card.Title>
+              <Card.Text style={{ color: "white", textAlign: "justify"}}>
+              Project from differents Characters and Planets using Star Wars with fetch API...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/star-wars-blog">
-              <h3>I want to know more!!</h3>
+              <h4 style={{ color: "white"}}>I want to know more!!</h4>
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-        <Card style={{ width: "200px", border: "0" }}>
-            <Card.Img variant="top"src="https://i.blogs.es/d74438/650_1000_json_logo-555px/450_1000.png" />
+        <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
+            <Card.Img variant="top"src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
             <Card.Body>
-              <Card.Title>Family Jackson</Card.Title>
-              <Card.Text>
-              Project to build a family with CRUD API method in Python...
+              <Card.Title style={{ color: "white", textAlign: "center"}}>FamilyJackson</Card.Title>
+              <Card.Text style={{ color: "white", textAlign: "justify"}}>
+              Project to build a family with Create, Update, Get and -delete API method in Python 
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/family-jackson-api">
-              <h3>I want to know more!!</h3>
+              <h4 style={{ color: "white"}}>I want to know more!!</h4>
               </Card.Link>
             </Card.Body>
           </Card>

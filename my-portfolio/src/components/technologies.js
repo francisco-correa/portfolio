@@ -12,7 +12,7 @@ const MyTechnologies = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+        <tr style={{color: "#2574A9"}}>
             <td>HTML <i class="fab fa-html5"></i> </td>
             <td>CSS <i class="fab fa-css3-alt"></i></td>
             <td>JavaSript <i class="fab fa-js"></i></td>
@@ -27,7 +27,7 @@ const MyTechnologies = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr style={{color: "#2574A9"}}>
             <td>SQL <i class="fas fa-database"></i></td>
             <td>Python <i class="fab fa-python"></i></td>
             <td>FHIR <i class="fas fa-fire"></i></td>
