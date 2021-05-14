@@ -4,7 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 const MyWorkExperience = () => {
   return (
     <Container>
-      <Row>
+         <h2>Work Experience</h2>
+       <Row className="text-center">
         <Col>
           <p>CENS</p>
           <p>CORFO</p>
@@ -14,6 +15,8 @@ const MyWorkExperience = () => {
           <p>ENFA</p>
         </Col>
       </Row>
+    
+
     </Container>
   );
 };

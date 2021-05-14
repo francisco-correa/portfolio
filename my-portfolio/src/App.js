@@ -10,14 +10,15 @@ import MyTechnologies from './components/technologies';
 const App = () => {
   return (
     <Container>
-       <h2>Francisco Correa</h2>
-       <h3>Full Stack Developer | Pharmacist | Marketing</h3>
+       <h2 style={{color: "#5F9EA0"}} className="name mr-4 text-center">Francisco Correa</h2>
+       <h3 style={{color: "#A52A2A"}} className="profession mr-4 text-center">Full Stack Developer | Pharmacist | Marketing</h3>
+       <hr></hr>
       <MyProfile></MyProfile>
-      <br></br>
+      <hr></hr>
       <MyProjects></MyProjects>
-      <br></br>
+      <hr></hr>
       <MyWorkExperience></MyWorkExperience>
-      <br></br>
+      <hr></hr>
       <MyTechnologies></MyTechnologies>
     </Container>
   

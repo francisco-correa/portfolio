@@ -3,15 +3,15 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const MyProjects = () => {
   return (
     <Container>
+         <h2>Projects</h2>
       <Row>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
             <Card.Body>
               <Card.Title>PetCloud</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Project on the integration of pet owners and veterinarians through API HL7-FHIR...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/pet-cloud">
               I want to know more
@@ -21,12 +21,11 @@ const MyProjects = () => {
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png" />
             <Card.Body>
               <Card.Title>StarWarsBlog</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Project from differentS Characters and Planets using Star Wars with fetch API...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/star-wars-blog">
               I want to know more
@@ -36,12 +35,11 @@ const MyProjects = () => {
         </Col>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top"src="https://cdn.worldvectorlogo.com/logos/contacts-ios.svg" />
             <Card.Body>
               <Card.Title>ContactList</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Project to build a contact agenda with CRUD method
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/contact-list">
               I want to know more
