@@ -26,9 +26,9 @@ const MyWorkExperience = () => {
         <Col>
           <h3>PHARMACIES</h3>
           <h4>(2012 - 2015)</h4>
-          <p>Manriquez</p>
-          <p>Farmaprecio</p>
-          <p>Eltit</p>
+          <a href="https://farmaciasmanriquez.cl/"><p>Manriquez</p></a>
+          <a href="https://farmaprecio.cl/"><p>Farmaprecio</p></a>
+          <a href="https://eltitempresas.cl/"><p>Eltit</p></a>
         </Col>
         <Col>
         <a href="https://www.enfa.cl/"><h3>ENFA</h3></a>

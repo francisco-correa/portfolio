@@ -3,9 +3,9 @@ import { Nav, Navbar, NavDropdown, Container, Row } from "react-bootstrap";
 
 const MyNavBar = () => {
   return (
-    <Container fluid>
+    <Container>
       <Row>
-        <Navbar bg="light" expand="lg">
+      <Navbar collapseOnSelect className="fixed-top">
           <Navbar.Brand href="#home">FC</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -6,7 +6,7 @@ const MyProjects = () => {
          <h2>Projects</h2>
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", border: "0" }}>
             <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
             <Card.Body>
               <Card.Title>PetCloud</Card.Title>
@@ -14,13 +14,13 @@ const MyProjects = () => {
               Project on the integration of pet owners and veterinarians through API HL7-FHIR...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/pet-cloud">
-              I want to know more!!
+              <h3>I want to know more!!</h3>
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "18rem", border: "0" }}>
             <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png" />
             <Card.Body>
               <Card.Title>StarWarsBlog</Card.Title>
@@ -28,21 +28,21 @@ const MyProjects = () => {
               Project from differentS Characters and Planets using Star Wars with fetch API...
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/star-wars-blog">
-              I want to know more!!
+              <h3>I want to know more!!</h3>
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top"src="https://cdn3.iconfinder.com/data/icons/mobile-icon-2/512/contact-512.png" />
+        <Card style={{ width: "200px", border: "0" }}>
+            <Card.Img variant="top"src="https://i.blogs.es/d74438/650_1000_json_logo-555px/450_1000.png" />
             <Card.Body>
-              <Card.Title>ContactList</Card.Title>
+              <Card.Title>Family Jackson</Card.Title>
               <Card.Text>
-              Project to build a contact agenda with CRUD API method
+              Project to build a family with CRUD API method in Python...
               </Card.Text>
-              <Card.Link href="https://github.com/francisco-correa/contact-list">
-              I want to know more!!
+              <Card.Link href="https://github.com/francisco-correa/family-jackson-api">
+              <h3>I want to know more!!</h3>
               </Card.Link>
             </Card.Body>
           </Card>

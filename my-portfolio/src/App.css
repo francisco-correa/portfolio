@@ -1,14 +1,24 @@
+/* Portfolio */
 body {
-  background-color: whitesmoke
+  background: rgb(227,226,236);
+  background: linear-gradient(90deg, rgba(227,226,236,1) 0%, rgba(255,255,255,1) 3%, rgba(207,219,222,1) 100%);
 }
 
 h2 {
-  color: #E7565E
+  color: #E7565E;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
-  color: #2574A9
+  color: #2574A9;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* React-css */
 
 .App {
   text-align: center;

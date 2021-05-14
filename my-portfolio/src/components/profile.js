@@ -13,8 +13,8 @@ const MyProfile = () => {
         of the NPC.</p>
         <p>
         I became interested in becoming a programmer to enhance my
-        profession and continue collaborating in the transformation of Digital
-        Digital Health transformation. Due to my 10 years of experience in the
+        profession and continue collaborating in the transformation of <strong>Digital
+        Health Transformation</strong>. Due to my 10 years of experience in the
         <strong> Marketing and Information Technology (IT) area (IT)</strong> related to my area
         of interest.</p> 
         <p>
