@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import MyProfile from "./components/profile"
+import MyProjects from "./components/projects"
+import MyWorkExperience from './components/workExperience';
+import {Container} from "react-bootstrap"
+import "bootstrap/dist/css/bootstrap.css";
+import MyTechnologies from './components/technologies';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+       <h2>Francisco Correa</h2>
+       <h3>Full Stack Developer | Pharmacist | Marketing</h3>
+      <MyProfile></MyProfile>
+      <br></br>
+      <MyProjects></MyProjects>
+      <br></br>
+      <MyWorkExperience></MyWorkExperience>
+      <br></br>
+      <MyTechnologies></MyTechnologies>
+    </Container>
+  
   );
 }
 
