@@ -14,7 +14,7 @@ const MyProfile = () => {
         
         <p>
         Due to my 10 years of experience in the
-        <strong> Marketing and Information Technology (IT)</strong> related to my area
+        <strong> Marketing and Information Technology</strong> related to my area
         of interest.</p> 
         <p>
         In addition, having been responsible for the implementation
@@ -24,7 +24,7 @@ const MyProfile = () => {
         </p>
         <p>
         This is why I am currently looking for a professional opportunity in the
-        <strong> Health IT area.</strong></p>
+        <strong> Health IT Area.</strong></p>
       </div>
       </Container>
   );

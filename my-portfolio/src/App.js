@@ -16,12 +16,12 @@ const App = () => {
       </h3>
       <Row>
         <Col className="text-center">
-          <a href="https://www.linkedin.com/in/francisco-javier-correa-fernandez/">
+          <a href="https://www.linkedin.com/in/francisco-javier-correa-fernandez/" target="_blank" rel="noreferrer">
             Linkedin <i class="fab fa-linkedin-in"></i>
           </a>
         </Col>
         <Col className="text-center">
-          <a href="https://github.com/francisco-correa">
+          <a href="https://github.com/francisco-correa" target="_blank" rel="noreferrer">
             GitHub <i class="fab fa-github"></i>
           </a>
         </Col>

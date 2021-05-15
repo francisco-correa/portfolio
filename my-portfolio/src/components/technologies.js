@@ -23,7 +23,7 @@ const MyTechnologies = () => {
       <table class="table table-striped">
         <thead>
           <tr>
-          <th scope="col" style={{color: "#2574A9"}}>Backtend</th>
+          <th scope="col" style={{color: "#2574A9"}}>Backend</th>
           </tr>
         </thead>
         <tbody>
