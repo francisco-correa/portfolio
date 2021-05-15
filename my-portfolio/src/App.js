@@ -4,6 +4,7 @@ import MyProjects from "./components/projects";
 import MyWorkExperience from "./components/workExperience";
 import MyTechnologies from "./components/technologies";
 import ScrollArrow from "./components/scrollUp";
+import Contact from "./components/contact";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -25,6 +26,11 @@ const App = () => {
             GitHub <i class="fab fa-github"></i>
           </a>
         </Col>
+        <Col className="text-center">
+          <a href="mailto:fcorrea.fernandez@gmail.com" target="_blank" rel="noreferrer">
+            Email <i class="far fa-envelope"></i>
+          </a>
+        </Col>
       </Row>
       <hr></hr>
       <MyProfile></MyProfile>
@@ -35,6 +41,7 @@ const App = () => {
       <hr></hr>
       <MyTechnologies></MyTechnologies>
       <ScrollArrow></ScrollArrow>
+      <Contact></Contact>
     </Container>
   );
 };

@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 
 const MyTechnologies = () => {
   return (
     <Container>
       <h2>Technologies and Programming Languages</h2>
-      <table class="table table-striped">
+      <Table striped bordered hover variant="light" class="table table-striped">
         <thead>
           <tr>
             <th scope="col" style={{color: "#2574A9"}}>Frontend</th>
@@ -19,8 +19,8 @@ const MyTechnologies = () => {
             <td>ReactJS</td>
           </tr>
         </tbody>
-      </table>
-      <table class="table table-striped">
+      </Table>
+      <Table striped bordered hover variant="light" class="table table-striped">
         <thead>
           <tr>
           <th scope="col" style={{color: "#2574A9"}}>Backend</th>
@@ -33,7 +33,7 @@ const MyTechnologies = () => {
             <td>FHIR <i class="fas fa-fire"></i></td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </Container>
   );
 };

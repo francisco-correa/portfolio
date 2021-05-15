@@ -5,9 +5,9 @@ const MyProjects = () => {
     <Container>
          <h2>Projects</h2>
       <Row>
-        <Col>
+      <Col xs={12} md={4}>
           <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
+            <Card.Img variant="top" src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>PetCloud</Card.Title>
               <Card.Text style={{ color: "white", textAlign: "justify"}}>
@@ -19,9 +19,9 @@ const MyProjects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img variant="top" src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
+            <Card.Img variant="top" src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>StarWarsBlog</Card.Title>
               <Card.Text style={{ color: "white", textAlign: "justify"}}>
@@ -33,12 +33,12 @@ const MyProjects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} md={4}>
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img variant="top"src="https://d25rq8gxcq0p71.cloudfront.net/dictionary-images/324/pets.jpg" />
+            <Card.Img variant="top"src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>FamilyJackson</Card.Title>
-              <Card.Text style={{ color: "white", textAlign: "justify"}}>
+              <Card.Text style={{ color: "white"}}>
               Project to build a family with Create, Update, Get and -delete API method in Python 
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/family-jackson-api">
