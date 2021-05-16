@@ -33,6 +33,15 @@ p {
   width: 170%;
 }
 
+.error {
+  border: 2px solid #E7565E;
+}
+
+.error-message {
+  color:#E7565E;
+}
+
+
 /* React-css */
 
 .App {

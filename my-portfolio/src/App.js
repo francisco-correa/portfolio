@@ -18,17 +18,17 @@ const App = () => {
       <Row>
         <Col className="text-center">
           <a href="https://www.linkedin.com/in/francisco-javier-correa-fernandez/" target="_blank" rel="noreferrer">
-            Linkedin <i class="fab fa-linkedin-in"></i>
+            Linkedin <i className="fab fa-linkedin-in"></i>
           </a>
         </Col>
         <Col className="text-center">
           <a href="https://github.com/francisco-correa" target="_blank" rel="noreferrer">
-            GitHub <i class="fab fa-github"></i>
+            GitHub <i className="fab fa-github"></i>
           </a>
         </Col>
         <Col className="text-center">
           <a href="mailto:fcorrea.fernandez@gmail.com" target="_blank" rel="noreferrer">
-            Email <i class="far fa-envelope"></i>
+            Email <i className="far fa-envelope"></i>
           </a>
         </Col>
       </Row>

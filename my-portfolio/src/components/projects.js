@@ -39,7 +39,7 @@ const MyProjects = () => {
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>FamilyJackson</Card.Title>
               <Card.Text style={{ color: "white"}}>
-              Project to build a family with Create, Update, Get and -delete API method in Python 
+              Project to build a family with Create, Update, Get and Delete API method in Python... 
               </Card.Text>
               <Card.Link href="https://github.com/francisco-correa/family-jackson-api">
               <h4 style={{ color: "white"}}>I want to know more!!</h4>
