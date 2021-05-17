@@ -28,6 +28,7 @@ const validationSchema = yup.object().shape({
 
 const Contact = () => {
   return (
+    <Container id="contact">
     <Formik
       initialValues={{ firstName: "", email: "", message: "" }}
       validationSchema={validationSchema}
@@ -135,6 +136,7 @@ const Contact = () => {
         </Container>
       )}
     </Formik>
+    </Container>
   );
 };
 export default Contact;

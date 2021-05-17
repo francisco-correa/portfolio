@@ -3,7 +3,7 @@ import { Container, Table, Row, Col } from "react-bootstrap";
 
 const MyTechnologies = () => {
   return (
-    <Container>
+    <Container id="tech and programming">
       <h2>Technologies and Programming Languages</h2>
       <Row>
         <Col xs={6} md={12}>

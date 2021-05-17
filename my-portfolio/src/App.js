@@ -1,4 +1,5 @@
 import "./App.css";
+import MyNavBar from "./components/navbar";
 import MyProfile from "./components/profile";
 import MyProjects from "./components/projects";
 import MyWorkExperience from "./components/workExperience";
@@ -10,7 +11,9 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const App = () => {
   return (
+    
     <Container>
+      <MyNavBar></MyNavBar>
       <h2 className="name mr-4 text-center">Francisco Correa</h2>
       <h3 className="profession mr-4 text-center">
         Full Stack Developer | Pharmacist | Marketing

@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 const MyProjects = () => {
   return (
-    <Container>
+  
+    <Container id="projects">
          <h2>Projects</h2>
       <Row>
       <Col xs={12} md={4}>
@@ -47,8 +48,9 @@ const MyProjects = () => {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
+        </Row>
     </Container>
+   
   );
 };
 export default MyProjects;

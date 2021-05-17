@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
+
 const MyProfile = () => {
   return (
-    <Container>
+    <Container id="profile">
       <h2>Profile</h2>
       <div style={{textAlign: "justify"}}>
         <p>After a long career as a <strong>Pharmaceutical Chemist</strong> in independent
@@ -27,6 +28,7 @@ const MyProfile = () => {
         <strong> Health IT Area.</strong></p>
       </div>
       </Container>
+      
   );
 };
 export default MyProfile;
