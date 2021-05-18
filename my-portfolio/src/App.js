@@ -34,6 +34,11 @@ const App = () => {
             Email <i className="far fa-envelope"></i>
           </a>
         </Col>
+        <Col className="text-center">
+          <a href="https://drive.google.com/file/d/1tu3iuD23EAoAQvI4zfVuu6Dcq7Vr49sY/view?usp=sharing" target="_blank" rel="noreferrer">
+            Resume(spanish) <i className="far fa-file"></i>
+          </a>
+        </Col>
       </Row>
       <hr></hr>
       <MyProfile></MyProfile>
