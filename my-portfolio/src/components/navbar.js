@@ -1,6 +1,5 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Row, Col } from "react-bootstrap";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -9,12 +8,33 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="nav" id="navbar">
-        <div className="nav-content">
-         <Row>
-          <Col md={12} xs={12}>
-          <ul className="nav-items">
-            <li className="nav-item">
+      <nav className="nav navbar-expand-md">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        > 
+        </button>
+        <button
+          type="button"
+          data-target="#collapseNavbar"
+          data-toggle="collapse"
+          className="navbar-toggler"
+        >
+          <span>
+            <i style={{color: "#2574A9"}} className="fas fa-bars"></i>
+          </span>
+        </button>
+
+        <div
+          className="nav-content collapse navbar-collapse"
+          id="collapseNavbar"
+        >
+          <ul className="navbar-nav auto">
+            <li className="nav-item dropdown">
               <Link
                 activeClass="active"
                 to="profile"
@@ -47,7 +67,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Work Experience
+                Work
               </Link>
             </li>
             <li className="nav-item">
@@ -59,7 +79,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Tech & Programming
+                Techs
               </Link>
             </li>
             <li className="nav-item">
@@ -75,8 +95,6 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
-          </Col>
-          </Row>
         </div>
       </nav>
     );
