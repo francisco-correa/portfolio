@@ -12,7 +12,7 @@ const MyTechnologies = () => {
             bordered
             hover
             variant="light"
-            class="table table-striped"
+            className="table table-striped"
           >
             <thead>
               <tr>
@@ -47,7 +47,7 @@ const MyTechnologies = () => {
             bordered
             hover
             variant="light"
-            class="table table-striped"
+            className="table table-striped"
           >
             <thead>
               <tr>
@@ -80,7 +80,7 @@ const MyTechnologies = () => {
             bordered
             hover
             variant="light"
-            class="table table-striped"
+            className="table table-striped"
           >
             <thead>
               <tr>

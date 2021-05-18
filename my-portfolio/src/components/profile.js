@@ -9,7 +9,7 @@ const MyProfile = () => {
       <div style={{textAlign: "justify"}}>
         <p>After a long career as a <strong>Pharmaceutical Chemist</strong> in independent
         pharmacies and participating in the development of the <strong>National
-        Pharmaceutical Terminology (NPC)</strong>, I became interested in <strong style={{color:"#2574A9"}}>becoming a programmer </strong>
+        Pharmaceutical Terminology</strong>, I became interested in <strong style={{color:"#2574A9"}}>becoming a developer </strong>
         to enhance my profession and continue collaborating in the development
         of the <strong>Digital Health Transformation</strong>.</p>
         
@@ -19,7 +19,7 @@ const MyProfile = () => {
         of interest.</p> 
         <p>
         In addition, having been responsible for the implementation
-        of <strong>Electronic Medical Prescription (EMP)</strong> in a private clinic, my skills
+        of <strong>Electronic Medical Prescription</strong> in a private clinic, my skills
         were enhanced to be a leader and to capitalize on my interest to expand
         my knowledge by working with multidisciplinary teams (IT teams, health professionals and C-level).
         </p>

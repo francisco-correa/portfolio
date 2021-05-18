@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Row, Col } from "react-bootstrap";
 
 export default class Navbar extends Component {
   scrollToTop = () => {
@@ -10,6 +11,8 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <div className="nav-content">
+         <Row>
+          <Col md={12} xs={12}>
           <ul className="nav-items">
             <li className="nav-item">
               <Link
@@ -72,6 +75,8 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
+          </Col>
+          </Row>
         </div>
       </nav>
     );

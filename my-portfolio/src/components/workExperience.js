@@ -8,14 +8,14 @@ const MyWorkExperience = () => {
       <Row className="text-center">
       <Col xs={12} md={3}>
         <a href="https://www.altaircapacitaciones.cl/curso/marketing-en-salud-desafios-digitales/" target="_blank" rel="noreferrer"><h3>AltAir</h3></a>
-        <h4><i>(current)</i></h4>
+        <h5><i>(current)</i></h5>
           <p>
             Healthcare marketing digital challenges (Marketing teacher)
           </p>
         </Col>
         <Col xs={12} md={2}>
         <a href="https://cens.cl/" target="_blank" rel="noreferrer"><h3>CENS </h3></a>
-        <h4><i>(2017 - current)</i></h4>
+        <h5><i>(2017 - current)</i></h5>
           <p>
             Non-profit corporation, supported by CORFO, where its objective is
             to reduce the digital health gap.
@@ -23,7 +23,7 @@ const MyWorkExperience = () => {
         </Col>
         <Col xs={12} md={2}>
         <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank" rel="noreferrer"><h3>CORFO  </h3></a>
-        <h4><i>(2016 - 2017)</i></h4>
+        <h5><i>(2016 - 2017)</i></h5>
           <p>
             {" "}
             The basis of a pharmaceutical terminology was
@@ -32,16 +32,16 @@ const MyWorkExperience = () => {
         </Col>
         <Col xs={12} md={2}>
           <h3>Pharmacies</h3>
-          <h4><i>(2012 - 2016)</i></h4>
+          <h5><i>(2012 - 2016)</i></h5>
           <a href="https://farmaciasmanriquez.cl/" target="_blank" rel="noreferrer"><p>Manriquez</p></a>
           <a href="https://farmaprecio.cl/" target="_blank" rel="noreferrer"><p>Farmaprecio</p></a>
           <a href="https://eltitempresas.cl/" target="_blank" rel="noreferrer"><p>Eltit</p></a>
         </Col>
         <Col xs={12} md={3}>
         <a href="https://www.enfa.cl/" target="_blank" rel="noreferrer"><h3>ENFA</h3></a>
-        <h4><i>(2011 & 2021)</i></h4>
+        <h5><i>(2011)</i></h5>
           <p>
-            Encourage and attend to students' academic doubts in order to
+            Encourage and attend to students academic doubts in order to
             enhance their learning process (Pharmacology Teacher)
           </p>
         </Col>

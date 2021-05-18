@@ -43,6 +43,7 @@ const App = () => {
       <MyWorkExperience></MyWorkExperience>
       <hr></hr>
       <MyTechnologies></MyTechnologies>
+      <hr></hr>
       <ScrollArrow></ScrollArrow>
       <Contact></Contact>
     </Container>

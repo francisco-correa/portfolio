@@ -65,7 +65,6 @@ const Contact = () => {
         handleChange,
         handleBlur,
         handleSubmit,
-        isSubmitting,
       }) => (
         <Container>
           <Row>
@@ -78,7 +77,7 @@ const Contact = () => {
                       type="text"
                       size="lg"
                       name="firstName"
-                      placeholder="Enter First Name"
+                      placeholder="Enter your First Name"
                       value={values.firstName}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -97,7 +96,7 @@ const Contact = () => {
                       type="text"
                       size="lg"
                       name="email"
-                      placeholder="Enter Email"
+                      placeholder="Enter your Email"
                       value={values.email}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -126,7 +125,7 @@ const Contact = () => {
                       </Form.Text>
                     </Form.Group>
                   </Form.Group>
-                  <Button size="lg" block type="submit" disable={isSubmitting}>
+                  <Button size="lg" block type="submit">
                     Send
                   </Button>
                 </Form>
