@@ -81,29 +81,28 @@ hr {
   position: sticky;
   top: 0px;
   width: 100%;
-  height: 70px;
+  height: 50px;
   z-index: 1000;
 }
 
 .nav .nav-content {
   max-width: 900px;
-  padding: 2rem 3rem;
-  padding-left: 5px;
-  margin-left: 300px;
+  padding: 0rem 2rem;
+  padding-left: 0px;
+  margin-left: 50px;
   display: flex;
   align-items: right;
-  height: 100%;
+  height: 30%;
 }
 
 .nav-item {
-  display: inline;
   margin-left: 2rem;
-  color: whitesmoke;
+  color: #2574A9;
   ;
 }
 
 .nav-item:hover {
-  color: #2574A9;
+  color: #E7565E;
   cursor: pointer;
 }
 

@@ -14,6 +14,7 @@ const App = () => {
     
     <Container>
       <MyNavBar></MyNavBar>
+      <br></br>
       <h2 className="name mr-4 text-center">Francisco Correa</h2>
       <h3 className="profession mr-4 text-center">
         Full Stack Developer | Pharmacist | Marketing
