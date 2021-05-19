@@ -20,22 +20,22 @@ const App = () => {
         Full Stack Developer | Pharmacist | Marketing
       </h3>
       <Row>
-        <Col className="text-center">
+        <Col xs={12} md={3}  className="text-center">
           <a href="https://www.linkedin.com/in/francisco-javier-correa-fernandez/" target="_blank" rel="noreferrer">
             Linkedin <i className="fab fa-linkedin-in"></i>
           </a>
         </Col>
-        <Col className="text-center">
+        <Col  xs={12} md={3} className="text-center">
           <a href="https://github.com/francisco-correa" target="_blank" rel="noreferrer">
             GitHub <i className="fab fa-github"></i>
           </a>
         </Col>
-        <Col className="text-center">
+        <Col  xs={12} md={3} className="text-center">
           <a href="mailto:fcorrea.fernandez@gmail.com" target="_blank" rel="noreferrer">
             Email <i className="far fa-envelope"></i>
           </a>
         </Col>
-        <Col className="text-center">
+        <Col xs={12} md={3} className="text-center">
           <a href="https://drive.google.com/file/d/1tu3iuD23EAoAQvI4zfVuu6Dcq7Vr49sY/view?usp=sharing" target="_blank" rel="noreferrer">
             Resume(spanish) <i className="far fa-file"></i>
           </a>

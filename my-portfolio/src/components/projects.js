@@ -5,8 +5,8 @@ const MyProjects = () => {
   
     <Container id="projects">
          <h2>Projects</h2>
-      <Row>
-      <Col xs={12} md={4}>
+      <Row className="pl-3">
+      <Col xs={12} md={4} className="mt-2">
           <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
             <Card.Img className="style-img" variant="top" src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
@@ -20,7 +20,7 @@ const MyProjects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} className="mt-2">
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
             <Card.Img className="style-img" variant="top" src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
@@ -34,7 +34,7 @@ const MyProjects = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={4}>
+        <Col xs={12} md={4} className="mt-2">
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
             <Card.Img className="style-img" variant="top"src="https://miro.medium.com/max/2896/1*7oZN0ORhmugVXNk240mqPg.jpeg" />
             <Card.Body>
