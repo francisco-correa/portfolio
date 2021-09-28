@@ -8,7 +8,7 @@ const MyProjects = () => {
       <Row className="pl-3">
       <Col xs={12} md={4} className="mt-2">
           <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img className="style-img" variant="top" src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.jpeg" alt="francisco´s projects" />
+            <Card.Img className="style-img" variant="top" src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.webp" alt="francisco´s projects" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>PetCloud</Card.Title>
               <Card.Text style={{ color: "white", textAlign: "justify"}}>
@@ -22,7 +22,7 @@ const MyProjects = () => {
         </Col>
         <Col xs={12} md={4} className="mt-2">
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img className="style-img" variant="top" src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.jpeg" alt="francisco´s projects" />
+            <Card.Img className="style-img" variant="top" src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.webp" alt="francisco´s projects" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>StarWarsBlog</Card.Title>
               <Card.Text style={{ color: "white", textAlign: "justify"}}>
@@ -36,7 +36,7 @@ const MyProjects = () => {
         </Col>
         <Col xs={12} md={4} className="mt-2">
         <Card className="bg-info" style={{ width: "18rem", border: "0" }}>
-            <Card.Img className="style-img" variant="top"src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.jpeg" alt="francisco´s projects" />
+            <Card.Img className="style-img" variant="top"src="https://raw.githubusercontent.com/francisco-correa/portfolio/main/my-portfolio/src/images/digitalHealthTransformation.webp" alt="francisco´s projects" />
             <Card.Body>
               <Card.Title style={{ color: "white", textAlign: "center"}}>FamilyJackson</Card.Title>
               <Card.Text style={{ color: "white"}}>
