@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const MyWorkExperience = () => {
   return (
     <Container id="work experience">
-      <h2>Work Experience </h2>
+      <h2>Work Experience</h2>
       <Row className="text-center">
       <Col xs={12} md={4}>
         <a href="https://www.altaircapacitaciones.cl/curso/marketing-en-salud-desafios-digitales/" target="_blank" rel="noreferrer"><h3>AltAir</h3></a>
@@ -14,7 +14,7 @@ const MyWorkExperience = () => {
           </p>
         </Col>
         <Col xs={12} md={4}>
-        <a href="https://cens.cl/" target="_blank" rel="noreferrer"><h3>CENS </h3></a>
+        <a href="https://cens.cl/" target="_blank" rel="noreferrer"><h3>CENS</h3></a>
         <h5><i>(2017 - current)</i></h5>
           <p>
             Non-profit corporation, supported by CORFO, where its objective is
@@ -22,7 +22,7 @@ const MyWorkExperience = () => {
           </p>
         </Col>
         <Col xs={12} md={4}>
-        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank" rel="noreferrer"><h3>CORFO  </h3></a>
+        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank" rel="noreferrer"><h3>CORFO</h3></a>
         <h5><i>(2016 - 2017)</i></h5>
           <p>
             {" "}
