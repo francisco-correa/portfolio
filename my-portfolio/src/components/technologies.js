@@ -98,8 +98,21 @@ const MyTechnologies = () => {
                 <td>
                   BPMN
                 </td>
-              </tr>
-            </tbody>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr style={{ color: "#2574A9" }}>
+                <td>
+                  Pandas
+                </td>
+                <td>
+                  Matplotlib
+                </td>
+                <td>
+                  Seaborn
+                </td>
+                </tr>
+                </tbody>
           </Table>
         </Col>
       </Row>
