@@ -7,7 +7,6 @@ import MyTechnologies from "./components/technologies";
 import ScrollArrow from "./components/scrollUp";
 import Contact from "./components/contact";
 import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.css";
 
 const App = () => {
   return (
@@ -36,8 +35,8 @@ const App = () => {
           </a>
         </Col>
         <Col xs={12} md={3} className="text-center">
-          <a href="https://drive.google.com/file/d/1tu3iuD23EAoAQvI4zfVuu6Dcq7Vr49sY/view?usp=sharing" target="_blank" rel="noreferrer">
-            Resume(spanish) <i className="far fa-file"></i>
+          <a href="https://drive.google.com/file/d/1CY3AS9Fiw_NOwdc80Zh_6dLuwPScDjY-/view?usp=sharing" target="_blank" rel="noreferrer">
+            Resume (English) <i className="far fa-file"></i>
           </a>
         </Col>
       </Row>
